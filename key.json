@@ -1,12 +1,3 @@
 {
-    "access_1": {"Name": "Nguyễn Văn Trúc", "Key": "trucdz"},
-    "access_2": {"Name": "Nguyễn Viết Công", "Key": "congmaster"},
-    "access_3": {"Name": "Nguyễn Trần Ca", "Key": "nguyentranca123"},
-    "access_4": {"Name": "Nguyễn Lương Quốc Tiến", "Key": "tien123"},
-    "access_5": {"Name": "Nguyễn Văn Phúc", "Key": "nguyenphuc123"},
-    "access_6": {"Name": "Phạm Bá Trung", "Key": "trungpham123"},
-    "access_7": {"Name": "Phạm Viết Thắng", "Key": "vietthang123"},
-    "access_8": {"Name": "Trương Đình Khang", "Key": "khangpro"},
-    "access_9": {"Name": "Vương Hữu Thắng", "Key": "vhthang123"},
-    "access_10": {"Name": "Trần Văn Thanh", "Key": "thanhtran01"}
+    "access_1": {"Name": "Nguyễn Văn Trúc", "Key": "trucdz"}
 }
