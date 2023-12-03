@@ -24,6 +24,7 @@
     
     // Đặt đường dẫn đến file JSON của bạn
     xhr.open('GET', 'key.json', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
 });
 
