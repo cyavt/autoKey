@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Display</title>
+</head>
+<body>
+    <div id="json-display"></div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+    // Sử dụng XMLHttpRequest để đọc file JSON
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            // Chuyển đổi nội dung của file JSON thành đối tượng JavaScript
+            var jsonData = JSON.parse(xhr.responseText);
+
+            // Hiển thị nội dung JSON trong một phần tử HTML (ví dụ: div với id là "json-display")
+            var jsonDisplay = document.getElementById('json-display');
+            jsonDisplay.innerHTML = '<pre>' + JSON.stringify(jsonData, null, 4) + '</pre>';
+        }
+    };
+    
+    // Đặt đường dẫn đến file JSON của bạn
+    xhr.open('GET', 'path/to/your/file.json', true);
+    xhr.send();
+});
+
+    </script>
+</body>
+</html>
