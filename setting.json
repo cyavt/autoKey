@@ -6,6 +6,6 @@
     "RM_PATH": "removelhptc.asp",
     "NAME": "mldk",
     "NAME_MDK": "mhdk",
-    "TimeOutLogin": 10,
-    "TimeOutDK": 10
+    "TimeOutLogin": 5,
+    "TimeOutDK": 5
 }
