@@ -1,7 +1,7 @@
 {
     "IP": "113.160.224.32",
     "LOGIN_PATH": "svlogin.asp",
-    "CMT_PATH": "***.asp",
+    "CMT_PATH": "dkmhcmtbk.asp",
     "ADD_PATH": "addmorelhptc.asp",
     "RM_PATH": "removelhptc.asp",
     "NAME": "mldk",
