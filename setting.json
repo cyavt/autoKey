@@ -1,9 +1,9 @@
 {
     "IP": "113.160.224.32",
     "LOGIN_PATH": "svlogin.asp",
-    "CMT_PATH": "commitdk224.aspp",
-    "ADD_PATH": "addmorelhptc.aspp",
-    "RM_PATH": "removelhptc.aspp",
+    "CMT_PATH": "commitdk224.aspx",
+    "ADD_PATH": "addmorelhptc.aspx",
+    "RM_PATH": "removelhptc.aspx",
     "NAME": "mldk",
     "NAME_MDK": "mhdk",
     "TimeOutLogin": 10,
